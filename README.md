@@ -37,4 +37,5 @@ After calling the process_all() function, the following directories will be crea
 4. Anova Result: it contains the Anova analysis result for each brain matrix
 
 # Note:
-This program is tested on macOS operating system. Large disk space (> 50GB) is required to run this program. And it takes a significantly long time (>60 minutes on macBookPro) to finish all the matrixes. 
+This program is tested on macOS operating system. Large disk space (> 50GB) is required to run this program. And it takes a significantly long time (>60 minutes on macBookPro) to finish all the matrixes. The sample output can be found at: 
+https://drive.google.com/drive/folders/1xN9eN5f53DKokOqwDfiaMLwhLM_oiLFQ?usp=sharing
