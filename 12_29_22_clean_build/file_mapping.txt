@@ -1,0 +1,6 @@
+~/Gits/EvanBCHProj/z_score/05_09_2022_ouyang_new_way (main) $ mkdir 12_29_22_clean_build
+~/Gits/EvanBCHProj/z_score/05_09_2022_ouyang_new_way (main) $ cp 12_12_optimize_harmo/draw_shaded_plot.py 12_29_22_clean_build/
+~/Gits/EvanBCHProj/z_score/05_09_2022_ouyang_new_way (main) $ cp 12_12_optimize_harmo/harmonDataBuilder_9_abcd_R_age_key.py 12_29_22_clean_build/harmonDataBuilder_9_R_age_key.py
+~/Gits/EvanBCHProj/z_score/05_09_2022_ouyang_new_way (main) $ cp 12_12_optimize_harmo/reorder_harmo_etiv.R 12_29_22_clean_build/harmonization.R
+~/Gits/EvanBCHProj/z_score/05_09_2022_ouyang_new_way (main) $ cp 12_12_optimize_harmo/clean_pre_data_then_run_harmo.R 12_29_22_clean_build/
+~/Gits/EvanBCHProj/z_score/05_09_2022_ouyang_new_way (main) $ cp 12_12_optimize_harmo/*.csv 12_29_22_clean_build/
