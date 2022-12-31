@@ -1005,7 +1005,7 @@ process_lh_thickness <- function() {
   data_harmo <- read.csv("all_subjects_cortical_metrics_LH_thickness_09_15_2022_postHarmo_clean.csv", stringsAsFactors = TRUE)
 
   gen_4_sheet_all_regions(data_raw, data_harmo, sex=3, byETIV=FALSE, 
-                          region_list=lh_thickness_region_list, outfile="lh_thickness_anova_all_age_as_key.xlsx", isLH=TRUE, 
+                          region_list=lh_thickness_region_list, outfile="lh_thickness_anova_age_as_key.xlsx", isLH=TRUE, 
                           genTukeyHSD=TRUE, genShadedPlot=TRUE)
   gen_plot_all_region(lh_thickness_region_list, 3)
 }
@@ -1050,7 +1050,7 @@ process_rh_thickness <- function(draw_hemi_plot) {
   data_harmo <- read.csv("all_subjects_cortical_metrics_RH_thickness_09_15_2022_postHarmo_clean.csv", stringsAsFactors = TRUE)
 
   gen_4_sheet_all_regions(data_raw, data_harmo, sex=3, byETIV=FALSE, 
-                          region_list=rh_thickness_region_list, outfile="rh_thickness_anova_all_age_as_key.xlsx", isLH=FALSE,
+                          region_list=rh_thickness_region_list, outfile="rh_thickness_anova_age_as_key.xlsx", isLH=FALSE,
                           genTukeyHSD=TRUE, genShadedPlot=TRUE)
   gen_plot_all_region(rh_thickness_region_list, 3)
   
